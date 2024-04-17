@@ -13,7 +13,7 @@ const Header = () => {
   const location = useLocation();
   const HeaderComponent = routeToHeader[location.pathname];
 
-  return <div style={ { width: '100vw', boxSizing: 'border-box', padding: '.5rem',backgroundColor: 'darkslategrey' } }>{ HeaderComponent && <HeaderComponent /> }</div>;
+  return <div style={ { width: '100vw', backgroundColor: 'darkslategrey' } }>{ HeaderComponent && <HeaderComponent /> }</div>;
 };
 
 export default Header;
