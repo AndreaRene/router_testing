@@ -6,7 +6,7 @@ import SimpleHeader from '../HeaderPane/SimpleHeader';
 const routeToHeader = {
   '/dashboard': LargeHeader,
   '/profile': LargeHeader,
-  '/reading': SimpleHeader,
+  '/newreading': SimpleHeader,
 };
 
 const Header = () => {
