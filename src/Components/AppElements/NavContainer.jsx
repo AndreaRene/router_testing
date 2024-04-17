@@ -10,7 +10,7 @@ const routeToNavComponents = {
         </div>
     ),
     '/profile': () => (
-        <div>
+        <div style={ { display: 'flex', height: '100%' } }>
             <NavLinks />
             <NavIcons />
         </div>
