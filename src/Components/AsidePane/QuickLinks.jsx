@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 const QuickLinks = () => {
   return (
-    <div style={{display: 'flex', justifyContent: 'center' }}>
+    <div style={{display: 'flex', justifyContent: 'center', marginTop: '4rem' }}>
       <Link to="/newreading">
         <button style={{ padding: '0.5rem 1rem', fontSize: '1rem', borderRadius: '5px', backgroundColor: 'darkgrey', color: 'white', border: 'none', cursor: 'pointer' }}>
           Go to New Reading
