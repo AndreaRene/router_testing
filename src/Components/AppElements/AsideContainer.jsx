@@ -7,16 +7,16 @@ import SpreadCarousel from '../AsidePane/SpreadCarousel';
 
 const routeToAsideComponents = {
     '/dashboard': () => (
-        <div>
-            <QuickUserInfo />
-            <QuickLinks />
-        </div>
+        <div style={{ display: 'flex', flexDirection: 'column', height: '100%' }}>
+        <QuickUserInfo style={{ flex: '1' }} />
+        <QuickLinks style={{ flex: '1' }} />
+      </div>
     ),
     '/profile': () => (
-        <div>
-            <QuickUserInfo />
-            <QuickLinks />
-        </div>
+        <div style={{ display: 'flex', flexDirection: 'column', height: '100%' }}>
+        <QuickUserInfo style={{ flex: '1' }} />
+        <QuickLinks style={{ flex: '1' }} />
+      </div>
     ),
     '/newreading': () => (
         <div>
@@ -31,9 +31,9 @@ const AsideContainer = () => {
     const AsideComponents = routeToAsideComponents[location.pathname];
 
     return (
-        <div style={ { display: 'flex', flexDirection: 'column' } }>
+        <aside style={ { display: 'flex', flexDirection: 'column', height: '100%', backgroundColor: 'lightslategrey' } }>
             { AsideComponents && <AsideComponents /> }
-        </div>
+        </aside>
     );
 };
 
