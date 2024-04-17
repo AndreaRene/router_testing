@@ -15,8 +15,8 @@ const routeToMainComponents = {
   ),
   '/profile': () => (
     <div style={{ display: 'flex' }}>
-      <ProfileLeft />
-      <ProfileRight />
+      <ProfileLeft style={{ width: '50%'}}/>
+      <ProfileRight style={{ width: '50%'}}/>
     </div>
   ),
   '/newreading': NewReading
