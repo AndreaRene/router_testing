@@ -4,7 +4,7 @@ import NavLinks from '../NavigationPane/NavigationLinks';
 
 const routeToNavComponents = {
     '/dashboard': () => (
-        <div>
+        <div style={ { display: 'flex', height: '100%' } }>
             <NavLinks />
             <NavIcons />
         </div>

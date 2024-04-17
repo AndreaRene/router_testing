@@ -7,26 +7,30 @@ import ProfileRight from '../../Pages/Profile/ProfileRight';
 import NewReading from '../../Pages/NewReading/NewReading';
 
 const routeToMainComponents = {
-    '/dashboard': () => (
-        <div>
-            <DashboardLeft />
-            <DashboardRight />
-        </div>
-    ),
-    '/profile': () => (
-        <div>
-            <ProfileLeft />
-            <ProfileRight />
-        </div>
-    ),
-    '/newreading': NewReading
+  '/dashboard': () => (
+    <div style={{ display: 'flex' }}>
+      <DashboardLeft />
+      <DashboardRight />
+    </div>
+  ),
+  '/profile': () => (
+    <div style={{ display: 'flex' }}>
+      <ProfileLeft />
+      <ProfileRight />
+    </div>
+  ),
+  '/newreading': NewReading
 };
 
 const MainContainer = () => {
-    const location = useLocation();
-    const MainComponents = routeToMainComponents[location.pathname];
+  const location = useLocation();
+  const MainComponent = routeToMainComponents[location.pathname];
 
-    return <div style={ { display: 'flex' } }>{ MainComponents && <MainComponents /> }</div>;
+  return (
+    <div style={{ flex: '1'}}>
+      {MainComponent && <MainComponent />}
+    </div>
+  );
 };
 
 export default MainContainer;
