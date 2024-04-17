@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 const NavigationLinks = () => {
   return (
     <nav style={{ height: '100%', width: '150px', backgroundColor: 'grey' }}>
-      <ul style={{ listStyleType: 'none', padding: 0 }}>
+      <ul style={{ listStyleType: 'none', padding: 0, textAlign: 'center' }}>
         <li>
           <Link to="/dashboard" style={{ textDecoration: 'none', color: 'darkslategrey' }}>Dashboard</Link>
         </li>
