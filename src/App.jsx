@@ -9,7 +9,7 @@ const App = () => (
   <Router>
     <div>
       <Header />
-      <div style={{ display: 'flex' }}>
+      <div style={ { display: 'flex' } }>
         <Aside />
         <Main />
         <Nav />

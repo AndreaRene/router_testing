@@ -6,31 +6,35 @@ import DeckCarousel from '../AsidePane/DeckCarousel';
 import SpreadCarousel from '../AsidePane/SpreadCarousel';
 
 const routeToAsideComponents = {
-  '/dashboard': () => (
-    <div>
-      <QuickUserInfo />
-      <QuickLinks />
-    </div>
-  ),
-  '/profile': () => (
-    <div>
-      <QuickUserInfo />
-      <QuickLinks />
-    </div>
-  ),
-  '/newreading': () => (
-    <div>
-      <DeckCarousel />
-      <SpreadCarousel />
-    </div>
-  ),
+    '/dashboard': () => (
+        <div>
+            <QuickUserInfo />
+            <QuickLinks />
+        </div>
+    ),
+    '/profile': () => (
+        <div>
+            <QuickUserInfo />
+            <QuickLinks />
+        </div>
+    ),
+    '/newreading': () => (
+        <div>
+            <DeckCarousel />
+            <SpreadCarousel />
+        </div>
+    ),
 };
 
 const AsideContainer = () => {
-  const location = useLocation();
-  const AsideComponents = routeToAsideComponents[location.pathname];
+    const location = useLocation();
+    const AsideComponents = routeToAsideComponents[location.pathname];
 
-  return <div>{AsideComponents && <AsideComponents />}</div>;
+    return (
+        <div style={ { display: 'flex', flexDirection: 'column' } }>
+            { AsideComponents && <AsideComponents /> }
+        </div>
+    );
 };
 
 export default AsideContainer;

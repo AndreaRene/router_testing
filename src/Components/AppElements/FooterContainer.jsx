@@ -8,10 +8,10 @@ const routeToFooter = {
 };
 
 const Footer = () => {
-  const location = useLocation();
-  const FooterComponent = routeToFooter[location.pathname];
+    const location = useLocation();
+    const FooterComponent = routeToFooter[location.pathname];
 
-  return <div>{FooterComponent && <FooterComponent />}</div>;
+    return <div style={ { display: 'flex' } }>{ FooterComponent && <FooterComponent /> }</div>;
 };
 
 export default Footer;

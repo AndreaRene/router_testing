@@ -13,7 +13,7 @@ const Header = () => {
   const location = useLocation();
   const HeaderComponent = routeToHeader[location.pathname];
 
-  return <div>{HeaderComponent && <HeaderComponent />}</div>;
+  return <div style={ { display: 'flex' } }>{ HeaderComponent && <HeaderComponent /> }</div>;
 };
 
 export default Header;
