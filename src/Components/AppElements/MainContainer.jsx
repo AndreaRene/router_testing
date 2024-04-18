@@ -9,7 +9,8 @@ import Community from '../../Pages/Community/Community';
 import BrowseSpreads from '../../Pages/BrowseSpreads/BrowseSpreads';
 import BrowseDecks from '../../Pages/BrowseDecks/BrowseDecks';
 import AppShop from '../../Pages/AppShop/AppShop';
-import Terms from '../../Pages/InfoPages/Terms'
+import Terms from '../../Pages/InfoPages/Terms';
+import Privacy from '../../Pages/InfoPages/Privacy'
 import Landing from '../../Pages/Landing/Landing';
 
 const routeToMainComponents = {
@@ -31,6 +32,7 @@ const routeToMainComponents = {
   '/browseDecks': BrowseDecks,
   '/appShop': AppShop,
   '/terms': Terms,
+  '/privacy': Privacy,
   '/': Landing,
 };
 
