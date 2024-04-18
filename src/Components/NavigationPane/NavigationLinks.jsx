@@ -31,6 +31,24 @@ const NavigationLinks = () => {
           </li>
         </ul>
         <hr />
+        <ul style={ { listStyleType: 'none', padding: 0, textAlign: 'center'} }>
+          <li style={ { marginBottom: '0.4rem' } }>
+            <Link to="/aboutUs" style={ { textDecoration: 'none', color: 'darkslategrey' } }>Meet the Team</Link>
+          </li>
+          <li style={ { marginBottom: '0.4rem' } }>
+            <Link to="/FAQs" style={ { textDecoration: 'none', color: 'darkslategrey' } }>FAQs</Link>
+          </li>
+          <li style={ { marginBottom: '0.4rem' } }>
+            <Link to="/contactUs" style={ { textDecoration: 'none', color: 'darkslategrey' } }>Contact Us</Link>
+          </li>
+          <li style={ { marginBottom: '0.4rem' } }>
+            <Link to="/terms" style={ { textDecoration: 'none', color: 'darkslategrey' } }>Terms</Link>
+          </li>
+          <li style={ { marginBottom: '0.4rem' } }>
+            <Link to="/privacy" style={ { textDecoration: 'none', color: 'darkslategrey' } }>Privacy</Link>
+          </li>
+        </ul>
+        <hr />
       </section>
       <Link to="/" style={ { textDecoration: 'none', color: 'darkslategrey', backgroundColor: 'lightgrey', padding: '10px', textAlign: 'center', borderRadius: '5px', width: '100px', marginBottom: '.5rem' } }>Logout</Link>
     </nav>
