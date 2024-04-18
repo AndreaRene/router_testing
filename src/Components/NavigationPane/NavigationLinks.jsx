@@ -24,10 +24,10 @@ const NavigationLinks = () => {
             <Link to="/browseSpreads" style={ { textDecoration: 'none', color: 'darkslategrey' } }>Browse Spreads</Link>
           </li>
           <li style={ { marginBottom: '0.4rem' } }>
-            <Link to="/newreading" style={ { textDecoration: 'none', color: 'darkslategrey' } }>Browse Decks</Link>
+            <Link to="/browseDecks" style={ { textDecoration: 'none', color: 'darkslategrey' } }>Browse Decks</Link>
           </li>
           <li style={ { marginBottom: '0.4rem' } }>
-            <Link to="/profile" style={ { textDecoration: 'none', color: 'darkslategrey' } }>App Shop</Link>
+            <Link to="/appShop" style={ { textDecoration: 'none', color: 'darkslategrey' } }>App Shop</Link>
           </li>
         </ul>
         <hr />

@@ -27,6 +27,12 @@ const routeToNavComponents = {
             <NavLinks />
             <NavIcons />
         </div>
+    ),
+    '/browseDecks': () => (
+        <div style={ { display: 'flex', height: '100%' } }>
+            <NavLinks />
+            <NavIcons />
+        </div>
     )
 };
 
