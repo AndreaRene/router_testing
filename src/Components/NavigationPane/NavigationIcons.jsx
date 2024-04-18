@@ -13,7 +13,7 @@ const NavigationIcons = () => {
                 <Link to="/profile" style={ { textDecoration: 'none', color: 'darkslategrey', marginTop: '.3rem'  } }>
                     <i className="fa fa-user fa-lg"></i>
                 </Link>
-                <Link to="/profile" style={ { textDecoration: 'none', color: 'darkslategrey', marginTop: '.5rem'   } }>
+                <Link to="/community" style={ { textDecoration: 'none', color: 'darkslategrey', marginTop: '.5rem'   } }>
                     <i className="fas fa-users fa-lg"></i>
                 </Link>
             </div>
