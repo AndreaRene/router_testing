@@ -4,14 +4,17 @@ const NavigationLinks = () => {
   return (
     <nav style={ { height: '100%', width: '150px', backgroundColor: 'grey', display: 'flex', flexDirection: 'column', justifyContent: 'space-between', alignItems: 'center' } }>
       <ul style={ { listStyleType: 'none', padding: 0, textAlign: 'center', marginBottom: '20px' } }>
-        <li style={ { marginBottom: '0.3rem'} }>
+        <li style={ { marginBottom: '0.4rem'} }>
           <Link to="/dashboard" style={ { textDecoration: 'none', color: 'darkslategrey'} }>Dashboard</Link>
         </li>
         <li style={ { marginBottom: '0.4rem'} }>
           <Link to="/newreading" style={ { textDecoration: 'none', color: 'darkslategrey' } }>New Reading</Link>
         </li>
-        <li>
+        <li style={ { marginBottom: '0.4rem'} }>
           <Link to="/profile" style={ { textDecoration: 'none', color: 'darkslategrey' } }>Profile</Link>
+        </li>
+        <li>
+          <Link to="/community" style={ { textDecoration: 'none', color: 'darkslategrey' } }>Community</Link>
         </li>
       </ul>
       <Link to="/" style={ { textDecoration: 'none', color: 'darkslategrey', backgroundColor: 'lightgrey', padding: '10px', textAlign: 'center', borderRadius: '5px', width: '100px', marginBottom: '.5rem' } }>Logout</Link>
