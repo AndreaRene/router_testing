@@ -1,4 +1,4 @@
-const ProfileRight = () => {
+const DashboardLeft = () => {
     return (
         <section style={ { width: '50%', height: '80%', display: 'flex', justifyContent: 'center' } }>
             <section style={ { width: '65%', textAlign: 'center', padding: '20px' } }>
@@ -58,4 +58,4 @@ const ProfileRight = () => {
     );
 };
 
-export default ProfileRight;
+export default DashboardLeft;

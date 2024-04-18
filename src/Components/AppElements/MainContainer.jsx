@@ -14,7 +14,7 @@ const routeToMainComponents = {
     </div>
   ),
   '/profile': () => (
-    <div style={ { display: 'flex' } }>
+    <div style={ { display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100%' } }>
       <ProfileLeft style={ { width: '50%' } } />
       <ProfileRight style={ { width: '50%' } } />
     </div>

@@ -1,9 +1,10 @@
 const ProfileRight = () => {
     return (
-        <section style={{ width: '50%', display: 'flex', justifyContent: 'center' }}>
-        <section style={{ width: '65%', textAlign: 'center', padding: '20px', border: '1px solid #ccc', borderRadius: '5px' }}>
+        <section style={ { width: '50%', height: '80%', display: 'flex', justifyContent: 'center' } }>
+            <section style={ { width: '65%', textAlign: 'center', padding: '20px' } }>
                 <div style={ { textAlign: 'center', marginBottom: '20px' } }>
                     <h2>User Information</h2>
+                    <hr style={ { width: '60%' } } />
                 </div>
                 <div style={ { display: 'flex', justifyContent: 'space-between', marginBottom: '10px' } }>
                     <label htmlFor="username">Username:</label>
@@ -31,7 +32,8 @@ const ProfileRight = () => {
                 </div>
 
                 <div style={ { textAlign: 'center', marginTop: '30px', marginBottom: '20px' } }>
-                    <h3>Reset Password</h3>
+                    <h2>Reset Password</h2>
+                    <hr style={ { width: '60%' } } />
                 </div>
                 <div style={ { display: 'flex', justifyContent: 'space-between', marginBottom: '10px' } }>
                     <label htmlFor="currentPassword">Current Password:</label>
@@ -45,11 +47,11 @@ const ProfileRight = () => {
                     <label htmlFor="confirmPassword">Confirm New Password:</label>
                     <input type="password" id="confirmPassword" />
                 </div>
-                <div style={ { textAlign: 'center', marginTop: '20px' } }>
-                    <button onClick={ () => console.log( 'Reset Password button clicked' ) }>Reset Password</button>
+                <div style={ { textAlign: 'center', marginTop: '4rem' } }>
+                    <button onClick={ () => console.log( 'Reset Password button clicked' ) } style={{backgroundColor: 'lightgrey', color: 'darkslategrey'}}>Reset Password</button>
                 </div>
                 <div style={ { textAlign: 'center', marginTop: '10px' } }>
-                    <a href="#reset-email">Reset via Email</a>
+                    <a href="#reset-email" style={ { color: 'whitesmoke', textDecoration: 'underline' } }>Reset via Email</a>
                 </div>
             </section>
         </section>
