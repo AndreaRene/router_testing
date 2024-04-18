@@ -11,19 +11,20 @@ import BrowseDecks from '../../Pages/BrowseDecks/BrowseDecks';
 import AppShop from '../../Pages/AppShop/AppShop';
 import Terms from '../../Pages/InfoPages/Terms';
 import Privacy from '../../Pages/InfoPages/Privacy'
+import FAQs from '../../Pages/InfoPages/FAQs';
 import Landing from '../../Pages/Landing/Landing';
 
 const routeToMainComponents = {
   '/dashboard': () => (
-    <div style={ { display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100%'} }>
-      <DashboardLeft style={ { width: '50%' } } />
-      <DashboardRight style={ { width: '50%' } } />
+    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100%' }}>
+      <DashboardLeft style={{ width: '50%' }} />
+      <DashboardRight style={{ width: '50%' }} />
     </div>
   ),
   '/profile': () => (
-    <div style={ { display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100%' } }>
-      <ProfileLeft style={ { width: '50%' } } />
-      <ProfileRight style={ { width: '50%' } } />
+    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100%' }}>
+      <ProfileLeft style={{ width: '50%' }} />
+      <ProfileRight style={{ width: '50%' }} />
     </div>
   ),
   '/newreading': NewReading,
@@ -33,6 +34,7 @@ const routeToMainComponents = {
   '/appShop': AppShop,
   '/terms': Terms,
   '/privacy': Privacy,
+  '/faqs': FAQs,
   '/': Landing,
 };
 

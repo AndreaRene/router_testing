@@ -36,7 +36,7 @@ const NavigationLinks = () => {
             <Link to="/aboutUs" style={ { textDecoration: 'none', color: 'darkslategrey' } }>Meet the Team</Link>
           </li>
           <li style={ { marginBottom: '0.4rem' } }>
-            <Link to="/FAQs" style={ { textDecoration: 'none', color: 'darkslategrey' } }>FAQs</Link>
+            <Link to="/faqs" style={ { textDecoration: 'none', color: 'darkslategrey' } }>FAQs</Link>
           </li>
           <li style={ { marginBottom: '0.4rem' } }>
             <Link to="/contactUs" style={ { textDecoration: 'none', color: 'darkslategrey' } }>Contact Us</Link>

@@ -13,6 +13,7 @@ const routeToHeader = {
   '/appShop': LargeHeader,
   '/terms': LargeHeader,
   '/privacy': LargeHeader,
+  '/faqs': LargeHeader,
 };
 
 const Header = () => {
