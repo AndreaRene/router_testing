@@ -7,6 +7,7 @@ import ProfileRight from '../../Pages/Profile/ProfileRight';
 import NewReading from '../../Pages/NewReading/NewReading';
 import Community from '../../Pages/Community/Community';
 import Landing from '../../Pages/Landing/Landing';
+import BrowseSpreads from '../../Pages/BrowseSpreads/BrowseSpreads';
 
 const routeToMainComponents = {
   '/dashboard': () => (
@@ -23,6 +24,7 @@ const routeToMainComponents = {
   ),
   '/newreading': NewReading,
   '/community': Community,
+  '/browseSpreads': BrowseSpreads,
   '/': Landing
 };
 

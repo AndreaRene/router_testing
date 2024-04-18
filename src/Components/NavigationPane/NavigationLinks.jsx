@@ -21,7 +21,7 @@ const NavigationLinks = () => {
         <hr />
         <ul style={ { listStyleType: 'none', padding: 0, textAlign: 'center'} }>
           <li style={ { marginBottom: '0.4rem' } }>
-            <Link to="/dashboard" style={ { textDecoration: 'none', color: 'darkslategrey' } }>Browse Spreads</Link>
+            <Link to="/browseSpreads" style={ { textDecoration: 'none', color: 'darkslategrey' } }>Browse Spreads</Link>
           </li>
           <li style={ { marginBottom: '0.4rem' } }>
             <Link to="/newreading" style={ { textDecoration: 'none', color: 'darkslategrey' } }>Browse Decks</Link>

@@ -22,6 +22,12 @@ const routeToNavComponents = {
             <NavIcons />
         </div>
     ),
+    '/browseSpreads': () => (
+        <div style={ { display: 'flex', height: '100%' } }>
+            <NavLinks />
+            <NavIcons />
+        </div>
+    )
 };
 
 const NavContainer = () => {

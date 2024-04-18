@@ -8,6 +8,7 @@ const routeToHeader = {
   '/profile': LargeHeader,
   '/newreading': SimpleHeader,
   '/community': LargeHeader,
+  '/browseSpreads': LargeHeader,
 };
 
 const Header = () => {
