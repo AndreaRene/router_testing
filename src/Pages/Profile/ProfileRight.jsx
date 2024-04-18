@@ -48,7 +48,7 @@ const ProfileRight = () => {
                     <input type="password" id="confirmPassword" />
                 </div>
                 <div style={ { textAlign: 'center', marginTop: '4rem' } }>
-                    <button onClick={ () => console.log( 'Reset Password button clicked' ) } style={{backgroundColor: 'lightgrey', color: 'darkslategrey'}}>Reset Password</button>
+                    <button onClick={ () => console.log( 'Reset Password button clicked' ) } style={ { backgroundColor: 'lightgrey', color: 'darkslategrey' } }>Reset Password</button>
                 </div>
                 <div style={ { textAlign: 'center', marginTop: '10px' } }>
                     <a href="#reset-email" style={ { color: 'whitesmoke', textDecoration: 'underline' } }>Reset via Email</a>

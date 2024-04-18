@@ -7,9 +7,9 @@ import Footer from './Components/AppElements/FooterContainer';
 
 const App = () => (
   <Router>
-    <div style={{ display: 'flex', flexDirection: 'column', height: '100vh' }}>
+    <div style={ { display: 'flex', flexDirection: 'column', height: '100vh' } }>
       <Header />
-      <section style={{ display: 'flex', flexGrow: 1 }}>
+      <section style={ { display: 'flex', flexGrow: 1 } }>
         <Aside />
         <Main />
         <Nav />

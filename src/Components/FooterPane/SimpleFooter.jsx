@@ -1,4 +1,4 @@
-const SimpleHeader = () => {
+const SimpleFooter = () => {
 
 
     return (
@@ -8,4 +8,4 @@ const SimpleHeader = () => {
     );
 };
 
-export default SimpleHeader;
+export default SimpleFooter;

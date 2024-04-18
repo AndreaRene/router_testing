@@ -5,7 +5,7 @@ const LargeHeader = () => {
 
 
     return (
-        <header style={ { display: 'flex', justifyContent: 'space-between', alignItems: 'center', boxSizing: 'border-box', padding: '.5rem'} }>
+        <header style={ { display: 'flex', justifyContent: 'space-between', alignItems: 'center', boxSizing: 'border-box', padding: '.5rem' } }>
             <div>
                 <Link to="/">
                     <img src={ Icon } /> {/* Example icon */ }

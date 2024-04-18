@@ -1,11 +1,11 @@
-const SimpleHeader = () => {
+const NewReading = () => {
 
 
     return (
-        <header style={ { display: 'flex', justifyContent: 'space-between', alignItems: 'center' } }>
+        <section>
 
-        </header>
+        </section>
     );
 };
 
-export default SimpleHeader;
+export default NewReading;
