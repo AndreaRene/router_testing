@@ -4,8 +4,11 @@ const NavigationLinks = () => {
   return (
     <nav style={ { height: '100%', width: '150px', backgroundColor: 'grey', display: 'flex', flexDirection: 'column', justifyContent: 'space-between', alignItems: 'center' } }>
       <ul style={ { listStyleType: 'none', padding: 0, textAlign: 'center', marginBottom: '20px' } }>
-        <li>
-          <Link to="/dashboard" style={ { textDecoration: 'none', color: 'darkslategrey' } }>Dashboard</Link>
+        <li style={ { marginBottom: '0.3rem'} }>
+          <Link to="/dashboard" style={ { textDecoration: 'none', color: 'darkslategrey'} }>Dashboard</Link>
+        </li>
+        <li style={ { marginBottom: '0.4rem'} }>
+          <Link to="/newreading" style={ { textDecoration: 'none', color: 'darkslategrey' } }>New Reading</Link>
         </li>
         <li>
           <Link to="/profile" style={ { textDecoration: 'none', color: 'darkslategrey' } }>Profile</Link>
