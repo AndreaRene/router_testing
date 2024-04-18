@@ -10,6 +10,7 @@ const routeToHeader = {
   '/community': LargeHeader,
   '/browseSpreads': LargeHeader,
   '/browseDecks': LargeHeader,
+  '/appShop': LargeHeader,
 };
 
 const Header = () => {

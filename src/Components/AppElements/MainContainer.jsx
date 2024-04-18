@@ -6,8 +6,10 @@ import ProfileLeft from '../../Pages/Profile/ProfileLeft';
 import ProfileRight from '../../Pages/Profile/ProfileRight';
 import NewReading from '../../Pages/NewReading/NewReading';
 import Community from '../../Pages/Community/Community';
-import Landing from '../../Pages/Landing/Landing';
 import BrowseSpreads from '../../Pages/BrowseSpreads/BrowseSpreads';
+import BrowseDecks from '../../Pages/BrowseDecks/BrowseDecks';
+import AppShop from '../../Pages/AppShop/AppShop';
+import Landing from '../../Pages/Landing/Landing';
 
 const routeToMainComponents = {
   '/dashboard': () => (
@@ -25,7 +27,9 @@ const routeToMainComponents = {
   '/newreading': NewReading,
   '/community': Community,
   '/browseSpreads': BrowseSpreads,
-  '/': Landing
+  '/browseDecks': BrowseDecks,
+  '/appShop': AppShop,
+  '/': Landing,
 };
 
 const MainContainer = () => {

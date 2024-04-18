@@ -33,6 +33,12 @@ const routeToNavComponents = {
             <NavLinks />
             <NavIcons />
         </div>
+    ),
+    '/appShop': () => (
+        <div style={ { display: 'flex', height: '100%' } }>
+            <NavLinks />
+            <NavIcons />
+        </div>
     )
 };
 
