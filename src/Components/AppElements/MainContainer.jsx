@@ -8,15 +8,15 @@ import NewReading from '../../Pages/NewReading/NewReading';
 
 const routeToMainComponents = {
   '/dashboard': () => (
-    <div style={{ display: 'flex' }}>
-      <DashboardLeft />
-      <DashboardRight />
+    <div style={ { display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100%'} }>
+      <DashboardLeft style={ { width: '50%' } } />
+      <DashboardRight style={ { width: '50%' } } />
     </div>
   ),
   '/profile': () => (
-    <div style={{ display: 'flex' }}>
-      <ProfileLeft style={{ width: '50%'}}/>
-      <ProfileRight style={{ width: '50%'}}/>
+    <div style={ { display: 'flex' } }>
+      <ProfileLeft style={ { width: '50%' } } />
+      <ProfileRight style={ { width: '50%' } } />
     </div>
   ),
   '/newreading': NewReading
@@ -27,8 +27,8 @@ const MainContainer = () => {
   const MainComponent = routeToMainComponents[location.pathname];
 
   return (
-    <div style={{ flex: '1'}}>
-      {MainComponent && <MainComponent />}
+    <div style={ { flex: '1' } }>
+      { MainComponent && <MainComponent /> }
     </div>
   );
 };
