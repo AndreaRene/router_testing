@@ -7,6 +7,7 @@ const routeToHeader = {
   '/dashboard': LargeHeader,
   '/profile': LargeHeader,
   '/newreading': SimpleHeader,
+  '/community': LargeHeader,
 };
 
 const Header = () => {

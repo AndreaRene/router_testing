@@ -15,7 +15,13 @@ const routeToNavComponents = {
             <NavIcons />
         </div>
     ),
-    '/newreading': NavIcons
+    '/newreading': NavIcons,
+    '/community': () => (
+        <div style={ { display: 'flex', height: '100%' } }>
+            <NavLinks />
+            <NavIcons />
+        </div>
+    ),
 };
 
 const NavContainer = () => {

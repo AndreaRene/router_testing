@@ -5,7 +5,8 @@ import DashboardRight from '../../Pages/Dashboard/DashboardRight';
 import ProfileLeft from '../../Pages/Profile/ProfileLeft';
 import ProfileRight from '../../Pages/Profile/ProfileRight';
 import NewReading from '../../Pages/NewReading/NewReading';
-import Landing from '../../Pages/Landing/Landing'
+import Community from '../../Pages/Community/Community';
+import Landing from '../../Pages/Landing/Landing';
 
 const routeToMainComponents = {
   '/dashboard': () => (
@@ -21,6 +22,7 @@ const routeToMainComponents = {
     </div>
   ),
   '/newreading': NewReading,
+  '/community': Community,
   '/': Landing
 };
 
