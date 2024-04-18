@@ -1,11 +1,12 @@
-const SimpleHeader = () => {
+const Landing = () => {
 
 
     return (
-        <header style={ { display: 'flex', justifyContent: 'space-between', alignItems: 'center' } }>
+        
+<button onClick={() => window.location.href = '/dashboard'}>Go to Dashboard</button>
 
-        </header>
+
     );
 };
 
-export default SimpleHeader;
+export default Landing;

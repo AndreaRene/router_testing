@@ -1,6 +1,6 @@
 const ProfileRight = () => {
     return (
-        <section style={ { width: '50%', height: '80%', display: 'flex', justifyContent: 'center' } }>
+        <section style={ { width: '50%', height: '80%', display: 'flex', justifyContent: 'center', borderLeft: '1px solid lightgrey' } }>
             <section style={ { width: '65%', textAlign: 'center', padding: '20px' } }>
                 <div style={ { textAlign: 'center', marginBottom: '20px' } }>
                     <h2>User Information</h2>
