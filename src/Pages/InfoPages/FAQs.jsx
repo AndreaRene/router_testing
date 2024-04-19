@@ -1,6 +1,6 @@
 const FAQs = () => {
     return (
-        <section style={{ width: '60%', margin: 'auto', marginTop: '5rem' }}>
+        <section style={{ width: '40%', margin: 'auto', marginTop: '5rem' }}>
             <h2>Why this app?</h2>
             <p>Our journey began from a simple realization: despite the wealth of tarot resources online, we couldn't find a mobile app that truly catered to our needs. Existing websites offered comprehensive information, but we craved the convenience of an all-in-one, on-the-go solution.</p>
 

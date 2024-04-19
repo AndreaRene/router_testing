@@ -2,8 +2,8 @@ import { Link } from 'react-router-dom'
 
 const LargeFooter = () => {
     return (
-        <footer style={ { width: '65%', backgroundColor: '#242424', padding: '5px 5rem' } }>
-            <div style={ { display: 'flex', justifyContent: 'flex-start'} }>
+        <footer style={ { width: '100%', backgroundColor: '#242424' } }>
+            <div style={ { display: 'flex', justifyContent: 'flex-start', width: "40%", margin: 'auto'} }>
                 {/* <ul style={ { listStyleType: 'none', padding: '0 4rem 0 0', borderRight: '1px solid #cccccc' } }>
                     <li style={ { marginBottom: '0.1rem' } }>
                         <Link to="/dashboard" style={ { textDecoration: 'none', color: '#cccccc' } }>Dashboard</Link>
@@ -15,7 +15,7 @@ const LargeFooter = () => {
                         <Link to="/community" style={ { textDecoration: 'none', color: '#cccccc' } }>Community</Link>
                     </li>
                 </ul> */}
-                <ul style={ { listStyleType: 'none', padding: '0 4rem 0 2rem', borderRight: '1px solid #cccccc' } }>
+                <ul style={ { listStyleType: 'none', padding: '0 4rem 0 0', borderRight: '1px solid #cccccc' } }>
                     <li style={ { marginBottom: '0.1rem' } }>
                         <Link to="/browseSpreads" style={ { textDecoration: 'none', color: '#cccccc' } }>Browse Spreads</Link>
                     </li>
