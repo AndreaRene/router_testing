@@ -11,9 +11,11 @@ const routeToHeader = {
   '/browseSpreads': LargeHeader,
   '/browseDecks': LargeHeader,
   '/appShop': LargeHeader,
+  '/aboutUs': LargeHeader,
+  '/contactUs': LargeHeader,
+  '/faqs': LargeHeader,
   '/terms': LargeHeader,
   '/privacy': LargeHeader,
-  '/faqs': LargeHeader,
 };
 
 const Header = () => {

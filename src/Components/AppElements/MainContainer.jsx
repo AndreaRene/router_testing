@@ -13,6 +13,7 @@ import Terms from '../../Pages/InfoPages/Terms';
 import Privacy from '../../Pages/InfoPages/Privacy'
 import FAQs from '../../Pages/InfoPages/FAQs';
 import Landing from '../../Pages/Landing/Landing';
+import AboutUs from '../../Pages/InfoPages/AboutUs';
 
 const routeToMainComponents = {
   '/dashboard': () => (
@@ -32,6 +33,7 @@ const routeToMainComponents = {
   '/browseSpreads': BrowseSpreads,
   '/browseDecks': BrowseDecks,
   '/appShop': AppShop,
+  '/aboutUs': AboutUs,
   '/terms': Terms,
   '/privacy': Privacy,
   '/faqs': FAQs,
