@@ -37,6 +37,7 @@ const routeToMainComponents = {
   '/terms': Terms,
   '/privacy': Privacy,
   '/faqs': FAQs,
+  '/landing': Landing,
   '/': Landing,
 };
 
