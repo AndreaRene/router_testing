@@ -1,10 +1,10 @@
 import { createContext, useContext, useState } from 'react';
+import PropTypes from 'prop-types';
 
-// Properly define INITIAL_AUTH_STATE at the top of the file
-const INITIAL_AUTH_STATE = true; // Adjust this based on your default authentication state needs
+const INITIAL_AUTH_STATE = false; 
 
 const AuthContext = createContext({
-  isAuthenticated: INITIAL_AUTH_STATE,  // Initialize with INITIAL_AUTH_STATE
+  isAuthenticated: INITIAL_AUTH_STATE,
   login: () => {},
   logout: () => {}
 });
@@ -12,24 +12,24 @@ const AuthContext = createContext({
 export const useAuth = () => useContext(AuthContext);
 
 export const AuthProvider = ({ children }) => {
-    const [isAuthenticated, setIsAuthenticated] = useState(INITIAL_AUTH_STATE);
+  const [isAuthenticated, setIsAuthenticated] = useState(INITIAL_AUTH_STATE);
 
-    const login = () => setIsAuthenticated(true);
-    const logout = () => setIsAuthenticated(false);
+  const login = () => setIsAuthenticated(true);
+  const logout = () => setIsAuthenticated(false);
 
-    // Provide a stable shape of the context value, including function stubs for safety
-    const value = {
-      isAuthenticated,
-      login,
-      logout
-    };
+  const value = {
+    isAuthenticated,
+    login,
+    logout
+  };
 
-    return (
-        <AuthContext.Provider value={value}>
-            {children}
-        </AuthContext.Provider>
-    );
+  return (
+    <AuthContext.Provider value={value}>
+      {children}
+    </AuthContext.Provider>
+  );
 };
 
-// It's typically better to use named exports for hooks and components
-export default { AuthProvider, useAuth };
+AuthProvider.propTypes = {
+    children: PropTypes.node.isRequired,
+  };

@@ -9,6 +9,8 @@ const routeToFooter = {
     '/faqs': LargeFooter,
     '/terms': LargeFooter,
     '/privacy': LargeFooter,
+    '/landing': LargeFooter,
+    '/': LargeFooter,
 
 };
 
