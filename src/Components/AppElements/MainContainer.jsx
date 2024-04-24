@@ -14,6 +14,7 @@ import Privacy from '../../Pages/InfoPages/Privacy'
 import FAQs from '../../Pages/InfoPages/FAQs';
 import Landing from '../../Pages/Landing/Landing';
 import AboutUs from '../../Pages/InfoPages/AboutUs';
+import ContactUs from '../../Pages/InfoPages/ContactUs';
 
 const routeToMainComponents = {
   '/dashboard': () => (
@@ -37,6 +38,7 @@ const routeToMainComponents = {
   '/terms': Terms,
   '/privacy': Privacy,
   '/faqs': FAQs,
+  '/contactUs': ContactUs,
   '/landing': Landing,
   '/': Landing,
 };
