@@ -1,7 +1,7 @@
 import { createContext, useContext, useState } from 'react';
 import PropTypes from 'prop-types';
 
-const INITIAL_AUTH_STATE = false; 
+const INITIAL_AUTH_STATE = true; 
 
 const AuthContext = createContext({
   isAuthenticated: INITIAL_AUTH_STATE,
