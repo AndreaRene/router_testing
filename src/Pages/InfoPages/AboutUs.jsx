@@ -1,4 +1,3 @@
-import React from 'react';
 import PropTypes from 'prop-types';
 import Empress from '../../assets/03_The_Empress.jpg';
 import Moon from '../../assets/18_The_Moon.jpg';

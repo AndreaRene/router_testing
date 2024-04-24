@@ -1,7 +1,7 @@
 const ContactUs = () => {
 
     const inputStyle = {
-        width: '60%', // Set width of input fields to 60% of their container
+        width: '60%',
     };
 
     const fieldContainerStyle = {
@@ -12,9 +12,9 @@ const ContactUs = () => {
     };
 
     const labelStyle = {
-        minWidth: '100px', // Ensure that labels have enough space and do not wrap around
+        minWidth: '100px',
         textAlign: 'left',
-        marginRight: '10px' // Space between label and input
+        marginRight: '10px'
     };
 
     return (
