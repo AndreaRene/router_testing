@@ -1,3 +1,5 @@
+import React from 'react';
+import PropTypes from 'prop-types';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { AuthProvider, useAuth } from './utils/auth/AuthContext';
 import Layout from './Components/AppLayout/Layout';
@@ -35,9 +37,15 @@ const MainRoutes = () => {
 const ProtectedContent = ({ content }) => {
   const { isAuthenticated } = useAuth();
 
-  // This ensures that if not authenticated, the user is redirected to the landing page.
   return isAuthenticated ? <Layout content={content} /> : <Navigate to="/landing" />;
 };
 
+ProtectedContent.propTypes = {
+  content: PropTypes.string.isRequired,
+};
+
+Layout.propTypes = {
+  content: PropTypes.string.isRequired,
+};
 
 export default App;
