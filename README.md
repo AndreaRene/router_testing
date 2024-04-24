@@ -1,8 +1,17 @@
-# React + Vite
+# Tarot Deck Application Test Repo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository serves as a testing ground for exploring different routing and frontend authentication methods for the Tarot Deck Application. The main goal of this repository is to develop, test, and refine features before integrating them into the [main tarot application](https://github.com/AndreaRene/tarot-application).
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The test repo focuses on:
+
+- Implementing and testing various routing strategies with React Router.
+- Exploring different frontend authentication techniques.
+- Ensuring compatibility and stability of new features before deployment to production.
+
+## Contact
+
+- [AndreaRene](https://github.com/AndreaRene)
+- [josephpicardat](https://github.com/josephpicardat)
+- [tugwellchristi](https://github.com/tugwellchristi)
