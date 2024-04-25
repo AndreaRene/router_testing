@@ -23,9 +23,9 @@ const JournalLeft = () => {
                 </h3>
                 <hr />
 
-                <div style={ { textAlign: 'justify', margin: '3rem auto', border: '1px solid grey', padding: '10px', width: '95%', maxHeight: '200px', overflowY: 'scroll', overflowX: 'hidden' } }>
-                    <p>Today was my first time working with the Eclipse of the Soul Tarot Deck, and I decided to do a deck interview spread to understand how we might work together. The spread revealed a lot more than I expected, and I feel a deep connection with this deck already.</p>
-                    <p>After this reading, I feel a profound sense of anticipation and curiosity. This deck appears to be straightforward and honest, capable of guiding significant personal transformations. It seems like it will be an excellent companion for my spiritual journey and personal development. I look forward to exploring with the deck and uncovering the insights it holds. The spread not only introduced the deck's capabilities but also set the tone for what I can expect in future readings.</p>
+                <div style={ { textAlign: 'justify', fontSize: '.9rem', margin: '3rem auto', border: '1px solid grey', padding: '5px', width: '95%', maxHeight: '200px', overflowY: 'scroll', overflowX: 'hidden' } }>
+                    <p style={{margin: '5px'}}>Today was my first time working with the Eclipse of the Soul Tarot Deck, and I decided to do a deck interview spread to understand how we might work together. The spread revealed a lot more than I expected, and I feel a deep connection with this deck already.</p>
+                    <p style={{margin: '5px'}}>After this reading, I feel a profound sense of anticipation and curiosity. This deck appears to be straightforward and honest, capable of guiding significant personal transformations. It seems like it will be an excellent companion for my spiritual journey and personal development. I look forward to exploring with the deck and uncovering the insights it holds. The spread not only introduced the deck's capabilities but also set the tone for what I can expect in future readings.</p>
                 </div>
                 <div>
                     <img src={ CardFront } style={ { width: '50px', margin: '10px' } } />
