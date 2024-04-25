@@ -19,6 +19,7 @@ const NavContainer = () => {
       const routes = {
         '/dashboard': commonNav,
         '/profile': commonNav,
+        '/reading': commonNav,
         '/community': commonNav,
         '/browseSpreads': commonNav,
         '/browseDecks': commonNav,

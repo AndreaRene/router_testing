@@ -15,6 +15,8 @@ import FAQs from '../../Pages/InfoPages/FAQs';
 import Landing from '../../Pages/Landing/Landing';
 import AboutUs from '../../Pages/InfoPages/AboutUs';
 import ContactUs from '../../Pages/InfoPages/ContactUs';
+import JournalLeft from '../../Pages/JournalEntry/JournalLeft';
+import JournalRight from '../../Pages/JournalEntry/JournalRight';
 
 const routeToMainComponents = {
   '/dashboard': () => (
@@ -27,6 +29,12 @@ const routeToMainComponents = {
     <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100%' }}>
       <ProfileLeft style={{ width: '50%' }} />
       <ProfileRight style={{ width: '50%' }} />
+    </div>
+  ),  
+  '/reading': () => (
+    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100%' }}>
+      <JournalLeft style={{ width: '50%' }} />
+      <JournalRight style={{ width: '50%' }} />
     </div>
   ),
   '/newreading': NewReading,

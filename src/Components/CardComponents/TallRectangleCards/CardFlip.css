@@ -19,10 +19,9 @@
   backface-visibility: hidden;
   top: 0;
   left: 0;
-  transition: transform 0.6s;  // Smooth transition for the flip
+  transition: transform 0.6s; 
 }
 
-/* ... other styles ...*/
 .front.rotate {
   transform: rotateY(180deg);
 }

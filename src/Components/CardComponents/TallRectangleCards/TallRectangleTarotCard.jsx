@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import CardBack from './CardBack';
 import CardFront from './CardFront';
 import CardInfo from './CardInfo';

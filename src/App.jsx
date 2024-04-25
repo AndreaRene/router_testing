@@ -21,8 +21,9 @@ const MainRoutes = () => {
       <Route path="/" element={isAuthenticated ? <Navigate to="/dashboard" /> : <Layout content="landing" />} />
       <Route path="/landing" element={isAuthenticated ? <Navigate to="/dashboard" /> : <Layout content="landing" />} />
       <Route path="/dashboard" element={<ProtectedContent content="dashboard" />} />
-      <Route path="/profile" element={<ProtectedContent content="profile" />} />
       <Route path="/newReading" element={<ProtectedContent content="newReading" />} />
+      <Route path="/profile" element={<ProtectedContent content="profile" />} />
+      <Route path="/reading" element={<ProtectedContent content="reading" />} />
       <Route path="/community" element={<ProtectedContent content="community" />} />
       <Route path="/aboutUs" element={<Layout content="aboutUs" />} />
       <Route path="/faqs" element={<Layout content="faqs" />} />
