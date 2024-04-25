@@ -1,25 +1,31 @@
 import PropTypes from 'prop-types';
 import CardFront from '../../assets/00_Cursed_Fool.jpg';
 
-const DeckInterview = ({ imgHeight = '200px' }) => { // Default height is 200px if not provided
+const DeckInterview = ({ imgHeight = '250px', lgMargin = '100px', smMargin = '20px' }) => {
+    const commonMargin = `${smMargin} ${smMargin} ${lgMargin} ${smMargin}`; // Used for positions with smaller top margin
+    const reverseMargin = `${lgMargin} ${smMargin} ${smMargin} ${smMargin}`; // Used for positions with larger top margin
+
     return (
         <section id='interviewSpread'>
-            <div style={ { display: 'flex', justifyContent: 'center', alignItems: 'self-end'} }>
-                <img src={ CardFront } style={ { height: imgHeight, margin: '50px 10px 10px 10px', borderRadius: '10%' } } className='position_one' />
-                <img src={ CardFront } style={ { height: imgHeight, margin: '10px 10px 50px 10px', borderRadius: '10%' } } className='position_two' />
-                <img src={ CardFront } style={ { height: imgHeight, margin: '50px 10px 10px 10px', borderRadius: '10%' } } className='position_three' />
+            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'self-end' }}>
+                <img src={CardFront} style={{ height: imgHeight, margin: reverseMargin, borderRadius: '10%' }} className='position_one' />
+                <img src={CardFront} style={{ height: imgHeight, margin: commonMargin, borderRadius: '10%' }} className='position_two' />
+                <img src={CardFront} style={{ height: imgHeight, margin: reverseMargin, borderRadius: '10%' }} className='position_three' />
             </div>
-            <div style={ { display: 'flex', justifyContent: 'center', alignItems: 'self-start' } }>
-                <img src={ CardFront } style={ { height: imgHeight, margin: '10px 10px 50px 10px', borderRadius: '10%' } } className='position_four' />
-                <img src={ CardFront } style={ { height: imgHeight, margin: '50px 10px 10px 10px', borderRadius: '10%' } } className='position_five' />
-                <img src={ CardFront } style={ { height: imgHeight, margin: '10px 10px 50px 10px', borderRadius: '10%' } } className='position_six' />
+            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'self-start' }}>
+                <img src={CardFront} style={{ height: imgHeight, margin: commonMargin, borderRadius: '10%' }} className='position_four' />
+                <img src={CardFront} style={{ height: imgHeight, margin: reverseMargin, borderRadius: '10%' }} className='position_five' />
+                <img src={CardFront} style={{ height: imgHeight, margin: commonMargin, borderRadius: '10%' }} className='position_six' />
             </div>
         </section>
     )
 };
 
 DeckInterview.propTypes = {
-    imgHeight: PropTypes.string // Validates that imgHeight is a string
+    imgHeight: PropTypes.string,
+    lgMargin: PropTypes.string,
+    smMargin: PropTypes.string
 };
 
 export default DeckInterview;
+
