@@ -1,7 +1,7 @@
 const ProfileLeft = () => {
     return (
-        <section style={ { width: '50%', height: '80%', display: 'flex', justifyContent: 'center' } }>
-            <section style={ { width: '65%', textAlign: 'center', padding: '20px' } }>
+        <section style={ { width: '50%', height: '100%', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' } }>
+        <section style={ { width: '65%', textAlign: 'center', padding: '20px' } }>
                 <div style={ { textAlign: 'center', marginBottom: '20px' } }>
                     <h2>User Information</h2>
                     <hr style={ { width: '60%' } } />

@@ -6,13 +6,8 @@ const JournalLeft = () => {
             <section style={ { width: '65%', textAlign: 'center', padding: '20px' } }>
                 <div style={ { textAlign: 'center' } }>
                     <h2 style={ { display: 'flex', alignItems: 'center', justifyContent: 'center', whiteSpace: 'nowrap' } }>
-                        {/* Invisible spacer to balance the flex space */ }
                         <div style={ { flex: 1 } }></div>
-
-                        {/* The title text */ }
-                        <span style={ { flexShrink: 0 } }>User Note Title</span>
-
-                        {/* Icons container */ }
+                        <span style={ { flexShrink: 0 } }>Getting to Know You</span>
                         <div style={ { flex: 1, display: 'flex', justifyContent: 'flex-end' } }>
                             <i className="fas fa-pencil-alt" style={ { marginLeft: '10px' } }></i>
                             <i className="fas fa-share-alt" style={ { marginLeft: '10px' } }></i>
