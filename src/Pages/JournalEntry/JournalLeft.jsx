@@ -2,6 +2,7 @@
 import DeckInterview
     from '../../Components/SpreadLayouts/DeckInterview';
 import DailyFocus from '../../Components/SpreadLayouts/DailyFocus';
+import ThreeCardSpread from '../../Components/SpreadLayouts/ThreeCardSpread';
 
 const JournalLeft = () => {
     return (
@@ -25,7 +26,8 @@ const JournalLeft = () => {
                 </div>
                 <h3 style={ { display: 'flex', justifyContent: 'space-between', alignItems: 'center', margin: 'auto', width: '90%', height: '2.5rem' } }>
                     {/* <p>Deck Interview</p> */}
-                    <p>Daily Focus</p>
+                    {/* <p>Daily Focus</p> */}
+                    <p>Self Awareness</p>
                     <div>04/17/2024</div>
                 </h3>
                 <hr />
@@ -35,7 +37,8 @@ const JournalLeft = () => {
                     <p style={ { margin: '5px' } }>After this reading, I feel a profound sense of anticipation and curiosity. This deck appears to be straightforward and honest, capable of guiding significant personal transformations. It seems like it will be an excellent companion for my spiritual journey and personal development. I look forward to exploring with the deck and uncovering the insights it holds. The spread not only introduced the deck's capabilities but also set the tone for what I can expect in future readings.</p>
                 </div>
                 {/* <DeckInterview imgHeight='100px' lgMargin='50px' smMargin='10px' /> */}
-                <DailyFocus imgHeight='200px' Margin='50px' />
+                {/* <DailyFocus imgHeight='200px' margin='50px' /> */}
+                <ThreeCardSpread imgHeight='200px' margin='20px' />
             </section>
 
         </section>

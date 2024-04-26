@@ -1,12 +1,12 @@
 import PropTypes from 'prop-types';
 import CardFront from '../../assets/01_The_Fool_Edited.png';
 
-const DailyFocus = ({ imgHeight = '250px', Margin = '100px' }) => {
+const DailyFocus = ({ imgHeight = '250px', margin = '100px' }) => {
 
     return (
-        <section id='interviewSpread'>
+        <section id='dailyFocusSpread'>
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-                <img src={CardFront} style={{ height: imgHeight, margin: Margin }} className='position_one' />
+                <img src={CardFront} style={{ height: imgHeight, margin: margin }} className='position_one' />
             </div>
         </section>
     )
@@ -14,7 +14,7 @@ const DailyFocus = ({ imgHeight = '250px', Margin = '100px' }) => {
 
 DailyFocus.propTypes = {
     imgHeight: PropTypes.string,
-    Margin: PropTypes.string,
+    margin: PropTypes.string,
 };
 
 export default DailyFocus;
