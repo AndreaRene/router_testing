@@ -1,4 +1,5 @@
 import CardFront from '../../assets/00_Cursed_Fool.jpg';
+import ChibiCardFront from '../../assets/01_The_Fool_Edited.png'
 
 const JournalLeft = () => {
     return (
@@ -15,9 +16,13 @@ const JournalLeft = () => {
                 </div>
                 <hr />
 
-                <h4>The Cursed Fool - Upright</h4>
+                {/* <h4>The Cursed Fool - Upright</h4> */}
+                <h4>The Fool - Upright</h4>
+
                 <section style={ { display: 'flex', alignItems: 'center', justifyContent: 'space-between' } }>
-                    <img src={ CardFront } style={ { height: '200px', border: '5px solid darkslategrey', borderRadius: '10px', margin: '10px' } } />
+                    {/* <img src={ CardFront } style={ { height: '200px', border: '5px solid darkslategrey', borderRadius: '10px', margin: '10px' } } /> */}
+                    <img src={ ChibiCardFront } style={ { height: '200px', border: '5px solid darkslategrey', borderRadius: '10px', margin: '10px', backgroundColor: 'darkslategrey' } } />
+
                     <div style={ { textAlign: 'justify', padding: '0 5px', fontSize: '.9rem' } }>
                         <p style={{margin: '6px'}}>In the Eclipse of the Soul tarot deck, The Cursed Fool represents a profound journey into the untamed wilderness of the human spirit. It signifies a call to embrace change, to accept the natural cycles of beginnings and endings. This card embodies defiant strength, urging one to step forward fearlessly, to trust in the path laid out by fate, even if it leads through the shadows.  The Fool finds her liberation by venturing into the desolate landscapes that others fear, forging her own path amidst whispers of madness.</p>
 
