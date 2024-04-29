@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
+import PropTypes from 'propTypes'
 import DailyDraw from '../../assets/daily_draw_example.jpg';
 import DeckInterview from '../../assets/interview_spread.png';
 import ThreeCard from '../../assets/three_card_draw.jpg';
@@ -63,6 +64,10 @@ const AccordionSection = ({ title }) => {
             </div>
         </div>
     );
+};
+
+AccordionSection.propTypes = {
+    title: PropTypes.string,
 };
 
 export default AccordionSection;

@@ -1,5 +1,4 @@
 import { useLocation } from 'react-router-dom';
-import React from 'react';
 import QuickUserInfo from '../AsidePane/QuickUserInfo';
 import QuickLinks from '../AsidePane/QuickLinks';
 import AppUpdates from '../AsidePane/AppUpdates';
